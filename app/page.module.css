@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /* margin-top: 40px; */
 }
 
 .header {
@@ -35,5 +34,25 @@
 
 .articlePageHeaderWrapper {
   background: red;
-  min-height: 340px;
+  padding: 10%;
+}
+
+.articlePageBlurb {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.articleTextWrapper {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.articleTextWrapper h2 {
+  font-size: 2rem;
+}
+
+.articleTextWrapper h3 {
+  font-size: 1.6rem;
 }
