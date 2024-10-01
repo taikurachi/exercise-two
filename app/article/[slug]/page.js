@@ -18,7 +18,7 @@ export default function Article({ params }) {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1>{articleData.title}</h1>
+        <h1 className={styles.articlePageTitle}>{articleData.title}</h1>
         <p>{formatDateForArticle(articleData.publishedDate)}</p>
         <p className={styles.articlePageBlurb}>{articleData.blurb}</p>
       </div>
